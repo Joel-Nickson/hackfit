@@ -20,7 +20,7 @@ const About = () => {
 	}, []);
 
 	return (
-		<div className="flex flex-col pb-20 min-h-screen lg:flex-row-reverse items-center lg:justify-around justify-center">
+		<div className="flex flex-col pb-20 min-h-screen lg:flex-row-reverse items-center lg:justify-around justify-center bg-gray-800">
 			<div className="w-auto h-auto">
 				<Lottie
 					options={defaultOptions}
