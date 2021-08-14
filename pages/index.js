@@ -1,19 +1,30 @@
 import Head from "next/head";
 
+import Header from "../components/Header";
+import About from "../components/About";
+import Footer from "../components/Footer";
+import Header2 from "../components/Header2";
+import Portfolio from "../components/Portfolio";
+
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen py-2">
+		<div>
 			<Head>
 				<title>Nino Joy</title>
 			</Head>
 
-			<h1>Hello World!</h1>
-
 			{/* Header */}
+			<Header2 />
+			{/* <Header /> */}
 
-			{/* Body */}
+			{/* About */}
+			<About />
+
+			{/* Portfolio */}
+			<Portfolio />
 
 			{/* Footer */}
+			<Footer />
 		</div>
 	);
 }
