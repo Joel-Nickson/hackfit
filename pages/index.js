@@ -1,21 +1,19 @@
 import Head from "next/head";
 
-import Header from "../components/Header";
 import About from "../components/About";
 import Footer from "../components/Footer";
-import Header2 from "../components/Header2";
+import Header from "../components/Header";
 import Portfolio from "../components/Portfolio";
 
 export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Nino Joy</title>
+				<title>Nino Joy | Portfolio</title>
 			</Head>
 
 			{/* Header */}
-			<Header2 />
-			{/* <Header /> */}
+			<Header />
 
 			{/* About */}
 			<About />

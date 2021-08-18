@@ -1,10 +1,12 @@
 import Image from "next/image";
 
-function StackLogo({ logo }) {
+function StackLogo({ logo, link }) {
 	return (
-		<div className="flex w-30 h-30 p-5 bg-white rounded-full items-center justify-center hover:-translate-y-3 hover:shadow-white-xl transition active:translate-y-3">
-			<Image src={logo} width={100} height={100} />
-		</div>
+		<a href={link} target="_blank" rel="noopener noreferrer">
+			<div className="flex w-30 h-30 p-5 bg-white rounded-full items-center justify-center sm:hover:-translate-y-3 hover:shadow-white-xl transition sm:active:translate-y-3 active:bg-gray-600">
+				<Image src={logo} width={100} height={100} />
+			</div>
+		</a>
 	);
 }
 

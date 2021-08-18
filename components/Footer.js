@@ -4,13 +4,14 @@ const Footer = () => {
 	return (
 		<div
 			id="footer"
-			className=" bg-gray-900 p-5 flex items-center justify-center"
+			className=" bg-gray-900 p-5 flex items-center justify-center text-gray-100"
 		>
 			<footer>
-				<p className="font-light font-poppins">
+				<p className="font-light font-poppins tracking-wider">
 					Made with 💛 &nbsp;using{" "}
 					{
 						<ReactTypingEffect
+							cursorClassName=""
 							speed="80"
 							eraseSpeed="100"
 							eraseDelay="1500"
