@@ -10,20 +10,20 @@ import figma from "../assets/stacks/figma.svg";
 import appdev from "../assets/animations/app-dev.svg";
 import uiux from "../assets/animations/ui-ux.svg";
 
-function Portfolio() {
+function StuffIDo() {
 	return (
 		<div
-			className="px-12 py-10 bg-gray-900 min-h-full text-gray-100 font-poppins"
-			id="portfolio"
+			className="px-12 py-10 bg-gray-900 text-gray-100 font-poppins"
+			id="stuff i do"
 		>
 			<h1 className="mt-10 font-bold text-3xl sm:text-4xl md:text-5xl text-center tracking-widest">
-				STUFF I KNOW
+				STUFF I DO
 			</h1>
 
+			{/* WEB AND NATIVE APPS CONTENT */}
 			<h1 className="mt-16 text-xl sm:text-2xl md:text-3xl text-center tracking-widest font-medium">
 				Web and Native Apps
 			</h1>
-			{/* WEB AND NATIVE APPS CONTENT */}
 			<div className="mt-10 flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:px-20">
 				<div className="px-10 lg:px-0">
 					<Image src={appdev} width={500} height={500} quality={10} />
@@ -45,10 +45,10 @@ function Portfolio() {
 				</div>
 			</div>
 
+			{/* UI/UX DESIGNING CONTENT */}
 			<h1 className="mt-20 text-xl sm:text-2xl md:text-3xl text-center tracking-widest font-medium">
 				UI/UX Designing
 			</h1>
-			{/* UI/UX DESIGNING CONTENT */}
 			<div className="mt-10 flex flex-col items-center justify-center lg:flex-row-reverse lg:justify-around lg:px-20">
 				<div className="px-10 lg:px-0">
 					<Image src={uiux} width={500} height={500} quality={10} />
@@ -75,4 +75,4 @@ function Portfolio() {
 	);
 }
 
-export default Portfolio;
+export default StuffIDo;

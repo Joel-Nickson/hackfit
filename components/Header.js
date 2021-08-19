@@ -7,7 +7,8 @@ import logo from "../assets/logo.png";
 
 const navigation = [
 	{ name: "about" },
-	{ name: "portfolio" },
+	{ name: "stuff i do" },
+	{ name: "personal projects" },
 	{ name: "contact" },
 ];
 
@@ -32,7 +33,7 @@ function Header() {
 								to={item.name}
 								spy={true}
 								smooth={true}
-								offset={-70}
+								// offset={-70}
 								duration={600}
 								className="px-3 py-2 text-gray-300 hover:bg-gray-700 hover:text-white hover:-translate-y-0.5 active:bg-gray-800 active:translate-y-0.5 transform transition rounded-md text-sm font-medium font-poppins"
 							>
@@ -52,13 +53,14 @@ function Header() {
 				<div className="md:hidden px-12 bg-gray-900 text-gray-100 flex flex-col items-center space-y-3">
 					{navigation.map((item) => (
 						<Link
+							// onClick={() => setIsMobileMenuOpen(!mobileMenuOpen)}
 							activeClass="bg-gray-800"
 							to={item.name}
 							spy={true}
 							smooth={true}
 							// offset={-70}
 							duration={600}
-							className="flex justify-center items-center bg-gray-800 w-full py-2 text-gray-300 active:bg-gray-500 active:translate-y-0.5 transform transition rounded-md text-sm font-medium font-poppins"
+							className="flex justify-center items-center bg-gray-800 w-full py-2 text-gray-300 active:bg-gray-500 active:translate-y-0.5 transform transition rounded-md text-sm font-medium font-poppins tracking-wide"
 						>
 							{item.name.toUpperCase()}
 						</Link>

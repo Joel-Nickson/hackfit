@@ -1,28 +1,16 @@
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import ReactTypingEffect from "react-typing-effect";
 
 import programmer from "../assets/animations/programmer.svg";
 
 const About = () => {
-	const [height, setHeight] = useState(0);
-	useEffect(() => {
-		setHeight(window.innerHeight);
-	}, []);
-
 	return (
 		<div
 			id="about"
 			className="flex flex-col sm:min-h-[90vh] min-h-[78vh] max-h-screen lg:flex-row-reverse items-center justify-around lg:justify-between bg-gray-900 text-gray-100"
 		>
 			<div className="lg:mr-20 min-w-0 max-w-sm md:min-w-md md:max-w-xl">
-				<Image
-					src={programmer}
-					width={900}
-					height={900}
-					quality={1}
-					priority={true}
-				/>
+				<Image src={programmer} width={900} height={900} quality={1} />
 			</div>
 
 			<div className="text-center mt-14 lg:mt-0 lg:text-left lg:ml-32">

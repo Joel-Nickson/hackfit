@@ -3,7 +3,8 @@ import Head from "next/head";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Portfolio from "../components/Portfolio";
+import PersonalProjects from "../components/PersonalProjects";
+import StuffIDo from "../components/StuffIDo";
 
 export default function Home() {
 	return (
@@ -18,8 +19,11 @@ export default function Home() {
 			{/* About */}
 			<About />
 
-			{/* Portfolio */}
-			<Portfolio />
+			{/* Stuff I Do */}
+			<StuffIDo />
+
+			{/* Personal Projects */}
+			<PersonalProjects />
 
 			{/* Footer */}
 			<Footer />
