@@ -26,10 +26,10 @@ function Portfolio() {
 			{/* WEB AND NATIVE APPS CONTENT */}
 			<div className="mt-10 flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:px-20">
 				<div className="px-10 lg:px-0">
-					<Image src={appdev} width={500} height={500} />
+					<Image src={appdev} width={500} height={500} quality={10} />
 				</div>
 				<div className="mt-10 lg:mt-0">
-					<div className="flex space-x-10 lg:space-x-20">
+					<div className="flex space-x-5 sm:space-x-10 lg:space-x-20">
 						<StackLogo logo={react} link="https://reactnative.dev" />
 						<StackLogo logo={nextjs} link="https://nextjs.org" />
 						<StackLogo logo={firebase} link="https://firebase.google.com" />
@@ -51,10 +51,10 @@ function Portfolio() {
 			{/* UI/UX DESIGNING CONTENT */}
 			<div className="mt-10 flex flex-col items-center justify-center lg:flex-row-reverse lg:justify-around lg:px-20">
 				<div className="px-10 lg:px-0">
-					<Image src={uiux} width={500} height={500} />
+					<Image src={uiux} width={500} height={500} quality={10} />
 				</div>
 				<div className="mt-10 lg:mt-0">
-					<div className="flex space-x-10 lg:space-x-20 justify-center lg:justify-start px-16 sm:px-0">
+					<div className="flex space-x-10 lg:space-x-20 justify-center lg:justify-start px-10">
 						<StackLogo
 							logo={adobexd}
 							link="https://www.adobe.com/in/products/xd.html?sdid=12B9F15S&mv=Search&ef_id=CjwKCAjw3_KIBhA2EiwAaAAlipwyHsSl0Uzwhau-eiMRBIAvnwtxckkgfoNiDLbqx6ZC4HbbeWTuIxoCUVAQAvD_BwE:G:s&s_kwcid=AL!3085!3!526748867462!e!!g!!adobe%20xd!1641846448!65452677551"

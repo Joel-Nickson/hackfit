@@ -7,7 +7,7 @@ const Footer = () => {
 			className=" bg-gray-900 p-5 flex items-center justify-center text-gray-100"
 		>
 			<footer>
-				<p className="font-light font-poppins tracking-wider">
+				<p className="font-light font-poppins tracking-wider text-sm">
 					Made with 💛 &nbsp;using{" "}
 					{
 						<ReactTypingEffect

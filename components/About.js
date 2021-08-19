@@ -16,7 +16,13 @@ const About = () => {
 			className="flex flex-col sm:min-h-[90vh] min-h-[78vh] max-h-screen lg:flex-row-reverse items-center justify-around lg:justify-between bg-gray-900 text-gray-100"
 		>
 			<div className="lg:mr-20 min-w-0 max-w-sm md:min-w-md md:max-w-xl">
-				<Image src={programmer} width={900} height={900} />
+				<Image
+					src={programmer}
+					width={900}
+					height={900}
+					quality={1}
+					priority={true}
+				/>
 			</div>
 
 			<div className="text-center mt-14 lg:mt-0 lg:text-left lg:ml-32">
