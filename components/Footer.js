@@ -16,7 +16,7 @@ const Footer = () => {
 							eraseSpeed="100"
 							eraseDelay="1500"
 							typingDelay="500"
-							text={["React", "Next.js", "Tailwind"]}
+							text={["React", "Next.js", "TailwindCSS"]}
 						/>
 					}
 				</p>

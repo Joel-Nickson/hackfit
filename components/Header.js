@@ -33,7 +33,7 @@ function Header() {
 								to={item.name}
 								spy={true}
 								smooth={true}
-								// offset={-70}
+								offset={40}
 								duration={600}
 								className="px-3 py-2 text-gray-300 hover:bg-gray-700 hover:text-white hover:-translate-y-0.5 active:bg-gray-800 active:translate-y-0.5 transform transition rounded-md text-sm font-medium font-poppins"
 							>
@@ -58,7 +58,7 @@ function Header() {
 							to={item.name}
 							spy={true}
 							smooth={true}
-							// offset={-70}
+							offset={50}
 							duration={600}
 							className="flex justify-center items-center bg-gray-800 w-full py-2 text-gray-300 active:bg-gray-500 active:translate-y-0.5 transform transition rounded-md text-sm font-medium font-poppins tracking-wide"
 						>

@@ -13,7 +13,7 @@ import uiux from "../assets/animations/ui-ux.svg";
 function StuffIDo() {
 	return (
 		<div
-			className="px-12 py-10 bg-gray-900 text-gray-100 font-poppins"
+			className="px-12 pt-10 bg-gray-900 text-gray-100 font-poppins"
 			id="stuff i do"
 		>
 			<h1 className="mt-10 font-bold text-3xl sm:text-4xl md:text-5xl text-center tracking-widest">
@@ -22,7 +22,7 @@ function StuffIDo() {
 
 			{/* WEB AND NATIVE APPS CONTENT */}
 			<h1 className="mt-16 text-xl sm:text-2xl md:text-3xl text-center tracking-widest font-medium">
-				Web and Native Apps
+				📌 Web and Native Apps
 			</h1>
 			<div className="mt-10 flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:px-20">
 				<div className="px-10 lg:px-0">
@@ -47,7 +47,7 @@ function StuffIDo() {
 
 			{/* UI/UX DESIGNING CONTENT */}
 			<h1 className="mt-20 text-xl sm:text-2xl md:text-3xl text-center tracking-widest font-medium">
-				UI/UX Designing
+				📌 UI/UX Designing
 			</h1>
 			<div className="mt-10 flex flex-col items-center justify-center lg:flex-row-reverse lg:justify-around lg:px-20">
 				<div className="px-10 lg:px-0">
