@@ -30,9 +30,13 @@ function StuffIDo() {
 				</div>
 				<div className="mt-10 lg:mt-0">
 					<div className="flex space-x-5 sm:space-x-10 lg:space-x-20">
-						<StackLogo logo={react} link="https://reactnative.dev" />
-						<StackLogo logo={nextjs} link="https://nextjs.org" />
-						<StackLogo logo={firebase} link="https://firebase.google.com" />
+						<StackLogo logo={react} link="https://reactnative.dev" size={100} />
+						<StackLogo logo={nextjs} link="https://nextjs.org" size={100} />
+						<StackLogo
+							logo={firebase}
+							link="https://firebase.google.com"
+							size={100}
+						/>
 					</div>
 
 					<div className="mt-16 font-poppins font-light space-y-5 tracking-widest sm:text-lg">
@@ -58,8 +62,9 @@ function StuffIDo() {
 						<StackLogo
 							logo={adobexd}
 							link="https://www.adobe.com/in/products/xd.html?sdid=12B9F15S&mv=Search&ef_id=CjwKCAjw3_KIBhA2EiwAaAAlipwyHsSl0Uzwhau-eiMRBIAvnwtxckkgfoNiDLbqx6ZC4HbbeWTuIxoCUVAQAvD_BwE:G:s&s_kwcid=AL!3085!3!526748867462!e!!g!!adobe%20xd!1641846448!65452677551"
+							size={100}
 						/>
-						<StackLogo logo={figma} link="https://www.figma.com/" />
+						<StackLogo logo={figma} link="https://www.figma.com/" size={100} />
 					</div>
 
 					<div className="mt-16 font-poppins font-light space-y-5 tracking-widest sm:text-lg">
