@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import StackLogo from "./StackLogo";
+import StackLogo from "../components/StackLogo";
 import react from "../assets/stacks/react.svg";
 import nextjs from "../assets/stacks/next-js.svg";
 import firebase from "../assets/stacks/firebase.svg";

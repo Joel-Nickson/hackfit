@@ -1,10 +1,10 @@
 import Head from "next/head";
 
-import About from "../components/About";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import PersonalProjects from "../components/PersonalProjects";
-import StuffIDo from "../components/StuffIDo";
+import About from "./About";
+import Footer from "./Footer";
+import Header from "./Header";
+import PersonalProjects from "./PersonalProjects";
+import StuffIDo from "./StuffIDo";
 
 export default function Home() {
 	return (
