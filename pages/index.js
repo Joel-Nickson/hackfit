@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import About from "./About";
+import Contact from "./Contact";
 import Footer from "./Footer";
 import Header from "./Header";
 import PersonalProjects from "./PersonalProjects";
@@ -24,6 +25,9 @@ export default function Home() {
 
 			{/* Personal Projects */}
 			<PersonalProjects />
+
+			{/* Contact */}
+			<Contact />
 
 			{/* Footer */}
 			<Footer />

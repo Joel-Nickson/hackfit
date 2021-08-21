@@ -13,6 +13,9 @@ import firebase from "../assets/stacks/firebase.svg";
 import adobexd from "../assets/stacks/adobe-xd.svg";
 import react from "../assets/stacks/react.svg";
 import nativebase from "../assets/stacks/nativebase.svg";
+import nextjs from "../assets/stacks/next-js.svg";
+import tailwind from "../assets/stacks/tailwind.svg";
+import vercel from "../assets/stacks/vercel.svg";
 
 function PersonalProjects() {
 	return (
@@ -69,7 +72,7 @@ function PersonalProjects() {
 					</div>
 				</div>
 
-				<div className="mt-10 lg:mt-0 font-light space-y-5 tracking-widest sm:text-lg lg:col-span-1 lg:pr-12">
+				<div className="mt-10 lg:mt-0 md:mx-20 lg:mx-0 font-light space-y-5 tracking-widest sm:text-lg lg:col-span-1 lg:pr-12">
 					<p>⭐️ &nbsp; UI/UX designed with Adobe XD</p>
 					<p>
 						⭐️ &nbsp; Native iOS/Android app build with React Native to search
@@ -112,10 +115,57 @@ function PersonalProjects() {
 					</div>
 				</div>
 
-				<div className="mt-10 lg:mt-0 font-light space-y-5 tracking-widest sm:text-lg lg:col-span-1 lg:pr-12">
+				<div className="mt-10 lg:mt-0 md:mx-20 lg:mx-0 font-light space-y-5 tracking-widest sm:text-lg lg:col-span-1 lg:pr-12">
 					<p>⭐️ &nbsp; UI/UX designed with Adobe XD</p>
 					<p>⭐️ &nbsp; Adequate color schemes</p>
 					<p>⭐️ &nbsp; Subtle animations</p>
+				</div>
+			</div>
+
+			{/* Personal Portfolio */}
+			<h1 className="mt-16 text-xl sm:text-2xl md:text-3xl text-center tracking-widest font-medium">
+				📌 Personal Portfolio
+			</h1>
+			<div className="mt-10 lg:mt-14 flex flex-col justify-center items-center">
+				<div className="md:mx-20 font-light space-y-5 tracking-widest sm:text-lg">
+					<p>⭐️ &nbsp; Fully Responsive website made with React and Next.js</p>
+					<p>
+						⭐️ &nbsp; TailwindCSS utility library for responsive and minimal UI
+					</p>
+					<p>⭐️ &nbsp; Hosted on Vercel by Next.js</p>
+				</div>
+
+				<div className="md:mx-20 mt-10 flex flex-row justify-between items-center w-full md:w-auto">
+					<a
+						href="https://github.com/nino-joy/nino-joy.github.io"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="py-2 px-4 bg-gray-800 text-gray-100 hover:bg-gray-700 hover:text-white hover:-translate-y-0.5 active:bg-gray-500 active:translate-y-0.5 transform transition rounded-md text-sm font-medium tracking-wide"
+					>
+						FILE 🔗
+					</a>
+					<div className="md:ml-20 flex md:space-x-5 space-x-2">
+						<PersonalProjectsStack
+							logo={react}
+							link="https://reactjs.org/"
+							size={32}
+						/>
+						<PersonalProjectsStack
+							logo={nextjs}
+							link="https://nextjs.org"
+							size={32}
+						/>
+						<PersonalProjectsStack
+							logo={tailwind}
+							link="https://tailwindcss.com"
+							size={32}
+						/>
+						<PersonalProjectsStack
+							logo={vercel}
+							link="https://vercel.com"
+							size={32}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
