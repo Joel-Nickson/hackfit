@@ -9,7 +9,7 @@ const navigation = [
 	{ name: "about" },
 	{ name: "stuff i do" },
 	{ name: "personal projects" },
-	{ name: "contact" },
+	// { name: "contact" },
 ];
 
 const emojiColor = "RGB(255,222,52)";
