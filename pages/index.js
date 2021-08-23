@@ -21,7 +21,7 @@ export default function Home() {
 			<PersonalProjects />
 
 			{/* Contact */}
-			{/* <Contact /> */}
+			<Contact />
 
 			{/* Footer */}
 			<Footer />
