@@ -1,4 +1,7 @@
 import ReactTypingEffect from "react-typing-effect";
+import Image from "next/image";
+
+import heart from "../assets/heart.svg";
 
 const Footer = () => {
 	return (
@@ -7,8 +10,12 @@ const Footer = () => {
 			className=" bg-gray-900 p-5 flex items-center justify-center text-gray-100"
 		>
 			<footer>
-				<p className="font-light font-poppins tracking-wider text-sm">
-					Made with 💛 &nbsp;using{" "}
+				<p className="font-light font-poppins tracking-wider text-sm flex items-center">
+					Made with
+					<span className="mx-1.5">
+						<Image src={heart} width={18} height={18} />
+					</span>
+					using
 					{
 						<ReactTypingEffect
 							cursorClassName=""
@@ -17,6 +24,7 @@ const Footer = () => {
 							eraseDelay="1500"
 							typingDelay="500"
 							text={["React", "Next.js", "TailwindCSS"]}
+							className="ml-1"
 						/>
 					}
 				</p>
