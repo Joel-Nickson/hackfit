@@ -3,7 +3,7 @@ import { MenuIcon } from "@heroicons/react/solid";
 import { Link } from "react-scroll";
 
 import Image from "next/image";
-import logo from "../assets/logo.png";
+import logo from "../assets/icons/logo.png";
 
 const navigation = [
 	{ name: "about" },

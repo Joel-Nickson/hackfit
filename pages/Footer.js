@@ -1,7 +1,7 @@
 import ReactTypingEffect from "react-typing-effect";
 import Image from "next/image";
 
-import heart from "../assets/heart.svg";
+import heart from "../assets/icons/heart.svg";
 
 const Footer = () => {
 	return (
