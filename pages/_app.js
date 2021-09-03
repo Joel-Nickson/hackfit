@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<title>Nino Joy | Portfolio</title>
 				<link rel="shortcut icon" href="/favicon.ico" />
-				<meta name="theme-color" content="#111827" >
+				<meta name="theme-color" content="#111827" />
 			</Head>
 			<Component {...pageProps} />
 		</>
