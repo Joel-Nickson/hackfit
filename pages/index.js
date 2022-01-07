@@ -1,32 +1,53 @@
-import About from "./About";
+import MainPage from "./MainPage";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Header from "./Header";
-import PersonalProjects from "./PersonalProjects";
-import StuffIDo from "./StuffIDo";
+import About from "./About";
+import SupportedBy from "./SupportedBy";
+import Prizes from "./Prizes";
+import Speakers from "./Speakers";
+import Schedule from "./Schedule";
+import Mentors from "./Mentors";
+import Sponsors from "./Sponsors";
+import FAQ from "./FAQ";
 import ScrollToTop from "../components/ScrollToTop";
 
 export default function Home() {
-	return (
-		<div>
-			<ScrollToTop />
-			{/* Header */}
-			<Header />
+  return (
+    <div>
+      <ScrollToTop />
+      {/* Header */}
+      <Header />
 
-			{/* About */}
-			<About />
+      {/* Main Page */}
+      <MainPage />
 
-			{/* Stuff I Do */}
-			<StuffIDo />
+      {/* About HackFIT */}
+      <About />
 
-			{/* Personal Projects */}
-			<PersonalProjects />
+      {/* Support */}
+      <SupportedBy />
 
-			{/* Contact */}
-			<Contact />
+      {/* Contact */}
+      <Prizes />
 
-			{/* Footer */}
-			<Footer />
-		</div>
-	);
+      {/* Footer */}
+      <Speakers />
+
+      {/* Footer */}
+      <Schedule />
+
+      {/* Footer */}
+      <Mentors />
+
+      {/* Footer */}
+      <Sponsors />
+
+      {/* Footer */}
+      <FAQ />
+
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
 }

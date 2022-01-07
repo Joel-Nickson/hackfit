@@ -10,17 +10,17 @@ import figma from "../assets/stacks/figma.svg";
 import appdev from "../assets/animations/app-dev.svg";
 import uiux from "../assets/animations/ui-ux.svg";
 
-function About() {
+function FAQ() {
   return (
     <div
       className="px-12 pt-10 bg-gray-900 text-gray-100 font-poppins"
-      id="About"
+      id="FAQ"
     >
       <h1 className="mt-10 font-bold text-3xl sm:text-4xl md:text-5xl text-center tracking-widest">
-        About HackFIT
+        FAQ
       </h1>
     </div>
   );
 }
 
-export default About;
+export default FAQ;
