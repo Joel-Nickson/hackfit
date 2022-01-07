@@ -5,28 +5,30 @@ import Header from "./Header";
 import PersonalProjects from "./PersonalProjects";
 import StuffIDo from "./StuffIDo";
 import ScrollToTop from "../components/ScrollToTop";
+import Sidenav from "./sidenav";
 
 export default function Home() {
-	return (
-		<div>
-			<ScrollToTop />
-			{/* Header */}
-			<Header />
+  return (
+    <div>
+      <ScrollToTop />
+      {/* Header */}
+      {/* <Header /> */}
+      <Sidenav />
 
-			{/* About */}
-			<About />
+      {/* About */}
+      <About />
 
-			{/* Stuff I Do */}
-			<StuffIDo />
+      {/* Stuff I Do */}
+      <StuffIDo />
 
-			{/* Personal Projects */}
-			<PersonalProjects />
+      {/* Personal Projects */}
+      <PersonalProjects />
 
-			{/* Contact */}
-			<Contact />
+      {/* Contact */}
+      <Contact />
 
-			{/* Footer */}
-			<Footer />
-		</div>
-	);
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
 }
