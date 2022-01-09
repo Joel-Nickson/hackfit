@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("http://fonts.cdnfonts.com/css/pixeboy");
 @layer base {
-  @font-face {
+  /* @font-face {
     font-family: Poppins;
     font-weight: 100;
     src: url(../fonts/Poppins/Poppins-Thin.ttf) format("ttf");
@@ -47,14 +47,20 @@
     font-family: Poppins;
     font-weight: 900;
     src: url(../fonts/Poppins/Poppins-Black.ttf) format("ttf");
+  } */
+  @font-face {
+    font-family: Nautigal;
+    font-weight: 400;
+    src: url("../fonts/Nautigal/The_Nautigal/TheNautigal-Regular.ttf")
+      format("ttf");
+    font-style: normal;
+    font-display: swap;
   }
   @font-face {
     font-family: VT;
-    src: url("../fonts/VT323/VT323-Regular.ttf") format("ttf");
-  }
-  @font-face {
-    font-family: Pixeboy;
     font-weight: 400;
-    src: url("../fonts/pixeboy-cdnfonts/Pixeboy.ttf") format("ttf");
+    src: url("../fonts/Nautigal/VT323/VT323-Regular.ttf") format("ttf");
+    font-style: normal;
+    font-display: swap;
   }
 }

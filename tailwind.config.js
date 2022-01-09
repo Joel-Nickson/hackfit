@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Pixeboy: "'Pixeboy',serif",
+        pixeboy: ["Pixeboy", "sans-serif"],
+        nautigal: ["The Nautigal", "cursive"],
+        vt: ["VT", "monospace"],
       },
       boxShadow: {
         white: "0 25px 25px -15px rgba(255, 255, 255, 0.2)",

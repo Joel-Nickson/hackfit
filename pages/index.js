@@ -9,7 +9,7 @@ import Sidenav from "./sidenav";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-nautigal">
       <ScrollToTop />
       {/* Header */}
       {/* <Header /> */}
