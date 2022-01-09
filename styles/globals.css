@@ -49,7 +49,12 @@
     src: url(../fonts/Poppins/Poppins-Black.ttf) format("ttf");
   }
   @font-face {
-    font-family: Vt323;
-    src: url(../fonts/VT323/VT323-Regular.ttf) format("ttf");
+    font-family: VT;
+    src: url("../fonts/VT323/VT323-Regular.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: Pixeboy;
+    font-weight: 400;
+    src: url("../fonts/pixeboy-cdnfonts/Pixeboy.ttf") format("ttf");
   }
 }
