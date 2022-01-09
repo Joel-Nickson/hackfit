@@ -1,4 +1,4 @@
-import About from "./About";
+import Intro from "./Intro";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -16,7 +16,7 @@ export default function Home() {
       <Sidenav />
 
       {/* About */}
-      <About />
+      <Intro />
 
       {/* Stuff I Do */}
       <StuffIDo />

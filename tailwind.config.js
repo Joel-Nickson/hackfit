@@ -13,6 +13,9 @@ module.exports = {
         brochwhite: "#d4d2d8",
         brochblack: "#2e2e2e",
       },
+      fontFamily: {
+        pixeboy: ["'Pixeboy'", "'sans-serif'"],
+      },
     },
   },
   variants: {
